@@ -1,0 +1,25 @@
+.last-section {
+  /* background-color: #252422; */
+  padding: 2rem 2rem 1rem 2rem;
+  text-align: right;
+}
+
+.socal h1 {
+  color: #03071e;
+  margin-right: 3rem;
+}
+
+/* -------------- icons --------------- */
+.name {
+  margin: 1.5rem 2rem 1rem 2rem;
+}
+.fa-brands {
+  font-size: 28px;
+  margin-inline: 0.9rem;
+  /* color: #6c757d; */
+  color: #d90429;
+  transition: 0.2s;
+}
+.fa-brands:hover {
+  color: #6a040f;
+}

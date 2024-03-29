@@ -1,0 +1,168 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #eff6e0;
+}
+.section-1 {
+  width: 100%;
+  height: 100vh;
+
+  background-color: #eff6e0;
+  position: relative;
+  padding: 2rem 2rem 0 2rem;
+}
+
+/* --------- Header ------------- */
+.header {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+.header-left ul {
+  display: flex;
+  list-style: none;
+}
+.header-left ul li a {
+  font-size: 1.5rem;
+  margin: 0 4rem;
+  color: black;
+  text-decoration: none;
+  transition: 0.25s;
+}
+.header-left ul li a:hover {
+  color: #d90429;
+}
+
+.header-left .hero {
+  color: #d90429;
+}
+
+.fa-solid {
+  margin-inline: 1rem;
+}
+
+.fa-search:hover {
+  color: white;
+}
+
+/* ------ contaner slide first ----------- */
+
+.profile-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+  margin-top: 6rem;
+}
+.profile-pic {
+  width: 12rem;
+  height: 12rem;
+  border-radius: 6rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.profile-pic img {
+  width: 12rem;
+  height: 12rem;
+}
+
+.contaner-1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* height: 90vh; */
+  margin-inline: 2rem;
+}
+
+.overFlow {
+  width: 592px;
+  overflow: hidden;
+  margin-left: 5rem;
+}
+
+.slide {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  width: 170rem;
+  height: 100%;
+  transition: 0.5s;
+  transform: translateX(0);
+}
+
+.slide-clm {
+  color: white;
+  width: 37rem;
+}
+.slide-clm h2 {
+  color: #03071e;
+  font-size: 2.5rem;
+  font-weight: lighter;
+  margin-bottom: 1rem;
+}
+.slide-clm p {
+  font-size: 1rem;
+  color: black;
+  margin-bottom: 2rem;
+}
+/* .slide-clm span {
+  color: #d90429;
+  background: transparent;
+  border: 2px solid #d90429;
+  padding: 0.5rem 3rem;
+  cursor: pointer;
+  transition: 0.25s;
+} */
+/* .slide-clm span:hover {
+  color: white;
+  background-color: #d90429;
+  border: 2px solid #d90429;
+} */
+
+.contaner-1 span {
+  cursor: pointer;
+}
+.arrow {
+  width: 3.5rem;
+  height: 3.5rem;
+  border-right: 5px solid #d90429;
+  border-bottom: 5px solid #d90429;
+  background: transparent;
+}
+.left {
+  margin-left: 1rem;
+  transform: rotate(135deg);
+}
+.right {
+  margin-right: 1rem;
+  transform: rotate(-45deg);
+}
+
+/* --------- Indicator ----------- */
+.one {
+  position: absolute;
+  right: 4rem;
+  bottom: 2rem;
+}
+.btn {
+  background: transparent;
+  border: 2px solid #d90429;
+  height: 0.9rem;
+  width: 5rem;
+  margin: 0 0 0 2rem;
+  display: inline-block;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.active {
+  background-color: #d90429;
+}
